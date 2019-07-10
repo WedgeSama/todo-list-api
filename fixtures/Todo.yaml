@@ -1,0 +1,7 @@
+App\Entity\Todo:
+    todos{0..29}:
+        title: '<sentence()>'
+        finish: '90%? 0 : 1'
+        description: '40%? <paragraphs(1, true)>'
+        priority: '50%? <numberBetween(0, 9)>'
+        createdAt: '<dateTimeBetween("-2 years", "now")>'
