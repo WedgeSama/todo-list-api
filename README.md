@@ -17,4 +17,4 @@ Todo List API
 
 ## License
 
-
+The code used to generate this stack is release under MIT licence.
